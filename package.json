@@ -1,0 +1,20 @@
+{
+  "name": "melodyhub-music-player",
+  "version": "1.0.0",
+  "description": "MelodyHub - Modern JavaScript Music Player (CodeAlpha Internship Task 4)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y http-server . -p 8085 -o",
+    "dev": "npx -y http-server . -p 8085 -o",
+    "serve": "npx -y http-server . -p 8085 -o"
+  },
+  "keywords": [
+    "javascript",
+    "music-player",
+    "codealpha",
+    "html5",
+    "css3"
+  ],
+  "author": "CodeAlpha Intern",
+  "license": "ISC"
+}

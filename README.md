@@ -1,43 +1,48 @@
-# CodeAlpha Calculator
+# CodeAlpha Music Player
 
-### Modern Responsive Calculator built with HTML, CSS & JavaScript
+### Modern Responsive Music Player built with HTML, CSS & JavaScript
 
-A modern and responsive web-based calculator developed as **Task 2 of the CodeAlpha Internship Program**.
+A modern and interactive web-based music player developed as **Task 4 of the CodeAlpha Internship Program**.
 
-The project implements basic arithmetic operations along with interactive controls, real-time display updates, keyboard support, responsive design, and user-friendly error handling.
+The project provides essential music playback functionality including play, pause, next, previous, progress tracking, volume control, song information, and a responsive user interface.
 
 ---
 
 ## 🚀 Overview
 
-The **CodeAlpha Calculator** is a frontend web application designed to provide a simple, fast, and interactive calculation experience.
+**CodeAlpha Music Player** is a frontend web application designed to provide a clean and engaging music listening experience.
 
 The project demonstrates the use of:
 
-- HTML5 for page structure
-- CSS3 for styling and responsive design
-- JavaScript for calculator logic and user interaction
-- DOM manipulation for real-time UI updates
-- Keyboard events for additional accessibility and usability
+- HTML5 for application structure
+- CSS3 for modern UI design and responsive layouts
+- JavaScript for music playback and user interactions
+- HTML5 Audio API for audio control
+- DOM manipulation for dynamic content updates
+- Event handling for interactive controls
 
 ---
 
 ## ✨ Key Features
 
-- ➕ Addition
-- ➖ Subtraction
-- ✖️ Multiplication
-- ➗ Division
-- 🔢 Decimal number calculations
-- 🧹 Clear / Reset functionality
-- ⌫ Backspace / Delete functionality
-- ⚡ Real-time display updates
-- ⌨️ Keyboard support
-- ⚠️ Division-by-zero error handling
-- 🎨 Modern calculator interface
-- ✨ Button hover and click effects
+- ▶️ Play and pause songs
+- ⏮️ Previous song navigation
+- ⏭️ Next song navigation
+- 🔀 Shuffle functionality
+- 🔁 Repeat functionality
+- 🎵 Dynamic song title and artist display
+- 🖼️ Album artwork display
+- ⏱️ Current time and total duration
+- 📊 Interactive progress bar
+- 🔊 Volume control
+- 🔍 Song search functionality
+- ❤️ Favorite song functionality
+- 🎼 Playlist management
+- 🎧 Recently played songs
+- 🏷️ Genre-based filtering
+- ⌨️ Keyboard controls
 - 📱 Responsive design
-- 💻 Desktop, tablet, and mobile support
+- ✨ Smooth UI transitions and animations
 
 ---
 
@@ -45,19 +50,32 @@ The project demonstrates the use of:
 
 | Technology | Purpose |
 |------------|---------|
-| HTML5 | Calculator structure and UI |
+| HTML5 | Application structure and audio element |
 | CSS3 | Styling, layout, animations and responsiveness |
-| JavaScript | Calculator logic and interactions |
-| DOM API | Dynamic display and event handling |
+| JavaScript | Music player logic and interactions |
+| HTML5 Audio API | Audio playback and controls |
+| DOM API | Dynamic UI updates and event handling |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-CodeAlpha_Calculator/
+CodeAlpha_MusicPlayer/
 │
 ├── index.html
 ├── style.css
 ├── script.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── song1.jpg
+│   │   ├── song2.jpg
+│   │   └── ...
+│   │
+│   └── music/
+│       ├── song1.mp3
+│       ├── song2.mp3
+│       └── ...
+│
 └── README.md
